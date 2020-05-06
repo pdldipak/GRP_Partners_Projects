@@ -42,8 +42,8 @@ class Partners extends Component {
         });
       })
       .catch(function (error) {
-        console.log(error);
-        console.log("error getting library", error.status);
+       // console.log(error);
+        // console.log("error getting library", error.status);
       });
   }
 

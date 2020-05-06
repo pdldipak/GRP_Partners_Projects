@@ -27,7 +27,7 @@ class ActivePartner extends React.Component {
   componentDidMount() {
     axios.get("../data.json").then((res) => {
       const data = res.data;
-      console.log(data);
+     // console.log(data);
       this.setState({
         partners: data,
         activePartner: this.props.location.state.partner,
